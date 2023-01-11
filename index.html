@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Voting Machine</title>
+</head>
+<body>
+    <div>
+        <form>
+          <label for="age">We need to verify that you are over 18 years of age before you can vote. What is your age?</label>
+          <input id="age" type="number">
+          <button type="submit">Submit!</button>
+        </form>
+    </div>
+
+    <div id = "ableVote" class = "hidden">
+        <h1>Voting area</h1>
+        <p>Please fill out your ballot here</p>
+        <a href="www.google.com">Click here for more info</a>
+    </div>
+
+    <div id = "notAble" class = "hidden">
+        <h1>Sorry you are not old enough</h1>
+        <a href="www.google.com">Click here for more info</a>
+
+    </div>
+
+</body>
+</html>
